@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tao menu da cap</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            font-family: tahoma;
+            font-size: 16px;
+        }
+        #menu {
+            width: 1000px;
+            height: 40px;
+            background-color: blue;
+            margin: 0px auto;
+            margin-top: 50px;
+        }
+         ul.root > li {
+             list-style: none;
+             float: left;
+             position: relative;
+         }
+        ul.root > li > a {
+            text-decoration: none;
+            color: white;
+            padding: 0px 20px 0px 20px;
+            line-height: 40px;
+            display: block;
+        }
+        ul.root > li > a:hover {
+            background: yellowgreen;
+        }
+        ul.sub-menu {
+            width: 250px;
+            background: blue;
+            min-height: 150px;
+            display: none;
+            position: absolute;
+        }
+        ul.sub-menu li {
+            list-style: none;
+        }
+        ul.sub-menu li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            border-top: 1px solid #ccc;
+            line-height: 40px;
+            text-indent: 10px;
+        }
+        ul.root > li:hover ul.sub-menu {
+            display: block;
+        }
+        ul.sub-menu li a:hover {
+            background: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+<div id="menu">
+    <ul class="root">
+        <li><a href="">GIỚI THIỆU</a>
+            <ul class="sub-menu">
+                <li><a href="">item1</a></li>
+                <li><a href="">item2</a></li>
+                <li><a href="">item3</a></li>
+                <li><a href="">item4</a></li>
+                <li><a href="">item5</a></li>
+                <li><a href="">item6</a></li>
+                <li><a href="">item7</a></li>
+
+            </ul>
+        </li>
+        <li><a href="">TUYỂN SINH</a>
+            <ul class="sub-menu">
+                <li><a href="">item1</a></li>
+                <li><a href="">item2</a></li>
+                <li><a href="">item3</a></li>
+                <li><a href="">item4</a></li>
+                <li><a href="">item5</a></li>
+                <li><a href="">item6</a></li>
+                <li><a href="">item7</a></li>
+
+            </ul>
+        </li>
+        <li><a href="">TIN TỨC</a>
+            <ul class="sub-menu">
+                <li><a href="">item1</a></li>
+                <li><a href="">item2</a></li>
+                <li><a href="">item3</a></li>
+                <li><a href="">item4</a></li>
+                <li><a href="">item5</a></li>
+                <li><a href="">item6</a></li>
+                <li><a href="">item7</a></li>
+
+            </ul>
+        </li>
+        <li><a href="">ĐÀO TẠO</a>
+            <ul class="sub-menu">
+                <li><a href="">item1</a></li>
+                <li><a href="">item2</a></li>
+                <li><a href="">item3</a></li>
+                <li><a href="">item4</a></li>
+                <li><a href="">item5</a></li>
+                <li><a href="">item6</a></li>
+                <li><a href="">item7</a></li>
+
+            </ul>
+        </li>
+        <li><a href="">KHOA HỌC</a>
+            <ul class="sub-menu">
+                <li><a href="">item1</a></li>
+                <li><a href="">item2</a></li>
+                <li><a href="">item3</a></li>
+                <li><a href="">item4</a></li>
+                <li><a href="">item5</a></li>
+                <li><a href="">item6</a></li>
+                <li><a href="">item7</a></li>
+
+            </ul>
+        </li>
+        <li><a href="">HỢP TÁC</a>
+            <ul class="sub-menu">
+                <li><a href="">item1</a></li>
+                <li><a href="">item2</a></li>
+                <li><a href="">item3</a></li>
+                <li><a href="">item4</a></li>
+                <li><a href="">item5</a></li>
+                <li><a href="">item6</a></li>
+                <li><a href="">item7</a></li>
+
+            </ul>
+        </li>
+        <li><a href="">SINH VIÊN</a>
+            <ul class="sub-menu">
+                <li><a href="">item1</a></li>
+                <li><a href="">item2</a></li>
+                <li><a href="">item3</a></li>
+                <li><a href="">item4</a></li>
+                <li><a href="">item5</a></li>
+                <li><a href="">item6</a></li>
+                <li><a href="">item7</a></li>
+
+            </ul>
+        </li>
+        <li><a href="">HỘI ĐỒNG</a>
+            <ul class="sub-menu">
+                <li><a href="">item1</a></li>
+                <li><a href="">item2</a></li>
+                <li><a href="">item3</a></li>
+                <li><a href="">item4</a></li>
+                <li><a href="">item5</a></li>
+                <li><a href="">item6</a></li>
+                <li><a href="">item7</a></li>
+
+            </ul>
+        </li>
+
+    </ul>
+</div>
+
+</body>
+</html>
